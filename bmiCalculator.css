@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+form{
+    flex-wrap: wrap;
+    width: 400px;
+    border: 2px solid white;
+    line-height: 40px;
+    text-align: center;
+    height: 300px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bmiCategories{
+    text-align: center;
+    line-height: 30px;
+}
+    

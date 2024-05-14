@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container{
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    margin-bottom: 30px;
+}
+form{
+    margin: 10px;
+    padding: 20px;
+}
+.submitGuess{
+    margin-top: 5px;
+    width: 200px;
+    height: 20px;
+}

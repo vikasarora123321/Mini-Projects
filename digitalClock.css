@@ -1,0 +1,10 @@
+*{
+    text-align: center;
+}
+
+#time{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(229, 233, 22);
+    font-size: 30px;
+}
