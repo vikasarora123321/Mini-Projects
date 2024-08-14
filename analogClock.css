@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("./Images/bgImage2.jpg");
+    background-size: cover;
+}
+
+.clock{
+    background-color: black;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.clockFace{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.transition{
+    transition: all 1.01s;
+    transition-timing-function: ease-in-out;
+}
+.hand{
+    background-color: black;
+    height: 3px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transform-origin: 0% 100%;
+    transform: rotate(-90deg);
+    border-radius: 50%;
+}
+.hourHand{
+    width: 70px;
+    z-index: 3;
+}
+.minuteHand{
+    width: 80px;
+    z-index: 2;
+}
+.secondHand{
+    background-color: red;
+    width: 90px;
+    z-index: 1;
+}
+.centre{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    top: 90px;
+    left: 90px;
+    position: absolute;
+    z-index: 10;
+}

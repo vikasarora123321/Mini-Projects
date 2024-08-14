@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+.image{
+    margin: 40px 40px;
+    width: 70%;
+}
+:root{
+    --base: #ffc600;
+    --spacing: 20px;
+    --blur: 1px;
+}
+.image{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+.h1{
+    color: var(--base);
+    font-size: 30px;
+}
